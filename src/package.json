@@ -1,0 +1,16 @@
+{
+  "name": "api-and-unit-testing-chai-mocha",
+  "version": "1.0.0",
+  "description": "API and unit testing with Chai and Mocha",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test-unit": "mocha --timeout 200000 'test/unit/**/*.js' --exit",
+    "test-api": "mocha --timeout 200000 'test/api/**/*.test.js' --exit"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chai": "^5.0.3",
+    "mocha": "^10.2.0"
+  }
+}
